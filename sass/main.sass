@@ -1,0 +1,72 @@
+body, html
+  margin: 0
+  padding: 0
+  overflow-x: hidden
+header
+  width: 100%
+  background: #141414
+  padding: 1%
+  .wrapper
+    .row
+      display: flex
+      justify-content: space-between
+
+      .center
+      //  background: red
+      .col
+        flex-grow: 1
+        text-align: center
+        .ul
+
+          display: flex
+          list-style-type: none
+          .li
+
+            color: #fff
+            margin: 6% 2%
+            .aphon
+
+              font-size: 25px
+            a
+              text-decoration: none
+              color: #fff
+              font-size: 20px
+              transition: color 0.5s
+            a:hover
+              color: #E04B54
+.bg1
+  background: url("../img/background.jpg") center
+  .wrapper
+    .row
+      padding:  20% 5%
+      text-align: center
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      .col:nth-child(1)
+        color: #fff
+        padding: 1%
+        background:  hsla(255,0%,0%,0.5)
+        font-weight: 700
+        width: 100%
+        font-size: 48px
+      .col:nth-child(2)
+        margin: 1% 10%
+        button
+          border: 0 solid #fff
+          background: #B62F2F
+          padding: 14px 28px
+          font-size: 26px
+          color: #fff
+          width: 200px
+          border-radius: 10px 30px
+          transition: opacity 0.3s
+        button:hover
+          opacity: 0.8
+          cursor: pointer
+      .col:nth-child(3)
+        padding-right: 20%
+        color: #fff
+        font-size: 26px
+        margin: 1% 0
+        background: hsla(255,0%,0%,0.5)
