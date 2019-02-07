@@ -1,6 +1,6 @@
 @font-face {
   font-family: Aaargh;
-  src: url(fonts/AaarghRegular/AaarghRegular.ttf); }
+  src: url(./fonts/AaarghRegular/AaarghRegular.ttf); }
 
 body, html {
   font-family: Aaargh;
@@ -69,3 +69,29 @@ header {
       font-size: 26px;
       margin: 1% 0;
       background: rgba(0, 0, 0, 0.5); }
+
+.bg2 {
+  font-size: 20px; }
+  .bg2 .wrapper {
+    width: 100%;
+    padding: 6% 0; }
+    .bg2 .wrapper .row:nth-child(1) {
+      padding: 0 5%;
+      display: flex; }
+      .bg2 .wrapper .row:nth-child(1) .col {
+        flex-grow: 1; }
+      .bg2 .wrapper .row:nth-child(1) .col:nth-child(2) {
+        font-size: 26px;
+        flex-grow: 4; }
+    .bg2 .wrapper .row:nth-child(2) {
+      display: flex;
+      justify-content: center; }
+      .bg2 .wrapper .row:nth-child(2) .col:nth-child(1) {
+        margin-top: 5%; }
+        .bg2 .wrapper .row:nth-child(2) .col:nth-child(1) button {
+          font-size: 20px;
+          color: #fff;
+          background: #9364B7;
+          padding: 14px 28px;
+          border: 2px solid #77489D;
+          border-radius: 50px; }

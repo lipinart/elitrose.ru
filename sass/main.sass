@@ -1,6 +1,6 @@
 @font-face
   font-family: Aaargh
-  src: url(fonts/AaarghRegular/AaarghRegular.ttf)
+  src: url(./fonts/AaarghRegular/AaarghRegular.ttf)
 
 
 body, html
@@ -18,7 +18,7 @@ header
       justify-content: space-between
 
       .center
- 
+
       .col
         flex-grow: 1
         text-align: center
@@ -41,6 +41,7 @@ header
             a:hover
               color: #E04B54
 .bg1
+
   background: url("../img/background.jpg") center
   .wrapper
     .row
@@ -76,3 +77,28 @@ header
         font-size: 26px
         margin: 1% 0
         background: hsla(255,0%,0%,0.5)
+.bg2
+  font-size: 20px
+  .wrapper
+    width: 100%
+    padding: 6% 0
+    .row:nth-child(1)
+      padding: 0 5%
+      display: flex
+      .col
+        flex-grow: 1
+      .col:nth-child(2)
+        font-size: 26px
+        flex-grow: 4
+    .row:nth-child(2)
+      display: flex
+      justify-content: center
+      .col:nth-child(1)
+        margin-top: 5%
+        button
+          font-size: 20px
+          color: #fff
+          background: #9364B7
+          padding: 14px 28px
+          border: 2px solid #77489D
+          border-radius: 50px
